@@ -7,8 +7,6 @@ export default function Pokedex() {
   const [pokemons, setPokemons] = useState([]);
   const [nextUrl, setNextUrl] = useState(null);
 
-  // console.log("pokemons", pokemons);
-
   useEffect(() => {
     (async () => {
       await loadPokemons();
@@ -23,7 +21,6 @@ export default function Pokedex() {
       const pokemonsArray = [];
       for await (const pokemon of response.results) {
         const pokemonDetails = await getPokemonDetailsByUrlApi(pokemon.url);
-        // console.log(pokemonDetails);
         pokemonsArray.push({
           id: pokemonDetails.id,
           name: pokemonDetails.name,
