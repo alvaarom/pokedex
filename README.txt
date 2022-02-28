@@ -4,6 +4,7 @@ Aplicacion creada con:
 - React Navigation (https://reactnavigation.org/)
 - Api (https://pokeapi.co/api/v2/)
 - Validacion de formularios con Formik y Yup (https://formik.org/)
+- Base de datos local con Async Storage (https://yarnpkg.com/package/@react-native-community/async-storage)
 
 Software utilizado:
 
