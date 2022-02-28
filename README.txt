@@ -17,5 +17,3 @@ Utilizando los cursos:
 - Curso de Introducción a React Native (https://platzi.com/cursos/react-native/)
 - Curso Práctico de React Native: Manejo de Listas y Consumo de APIs (https://platzi.com/cursos/react-native-listas-apis/)
 - Curso Práctico de React Native: Formularios, Almacenamiento y Deploy (https://platzi.com/cursos/react-native-formularios-almacenamiento/)
-
-Sumando un total de 20 horas de practica.

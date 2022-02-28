@@ -1,4 +1,4 @@
-export const user = {
+export const userInfo = {
   username: "alvaro",
   password: "123456",
 };
