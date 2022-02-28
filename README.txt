@@ -1,8 +1,9 @@
 Aplicacion creada con:
 
 - React Native
-- React Navigation https://reactnavigation.org/
-- Api https://pokeapi.co/api/v2/
+- React Navigation (https://reactnavigation.org/)
+- Api (https://pokeapi.co/api/v2/)
+- Validacion de formularios con Formik y Yup (https://formik.org/)
 
 Software utilizado:
 
