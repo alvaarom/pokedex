@@ -29,3 +29,13 @@ export async function isPokemonFavoriteApi(id) {
     throw error;
   }
 }
+
+export async function removePokemonFavoriteApi(id) {
+  try {
+    const favorites = await getPokemonFavoriteApi();
+    const newFavorites = pull(favorites, id);
+    await AsyncStorage.setItem(FAVORITE_STORAGE, JSON.stringify(newFavorites));
+  } catch (error) {
+    throw error;
+  }
+}
