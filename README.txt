@@ -1,4 +1,6 @@
-Aplicacion creada con:
+Aplicacion para obtener datos de Pokémon.
+
+Creada con:
 
 - React Native
 - React Navigation (https://reactnavigation.org/)
