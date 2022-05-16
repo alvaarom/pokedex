@@ -1,4 +1,4 @@
-# birthday
+# pokedex
 Aplicacion para obtener datos de Pokémon.
 
 Creada con:
